@@ -44,7 +44,7 @@ TODO (3-5 bullets, from findings/runs.jsonl). Suggested angles:
 - Which defense stopped which attack, and which ones were bypassed (A4 vs `scan`; A1/A5 vs `outfilter`)?
 - What did provenance cost, and what does it assume (authenticated, trustworthy ingestion)?
 
-## Limitations (be honest, it reads well)
+## Limitations 
 - Small model (3B), small corpus, N trials per cell: results show feasibility, not statistics.
 - Success checks are string matches (`365`, `evil.example`).
 - Regex scan and URL filter are deliberately simple baselines.
